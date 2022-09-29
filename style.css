@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif !important;
+}
+
+:root {
+  --primary-bg: #2B2C3C;
+  --text-color-white: #fff;
+  --text-color-black: #111;
+  --text-fade: #eaeaea;
+  --button-color: #5E7DDD;
+  --link-hover: #2E5BA3;
+}
+
+section {
+  padding: 60px 0;
+}
+
+#nav {
+  background: var(--primary-bg) !important;
+}
+
+#home {
+  background: var(--primary-bg);
+  padding-top: 0;
+  margin: 0;
+}
+
+.my-card {
+  background: var(--button-color);
+  padding: .8rem 1rem;
+  color: #fff;
+  border-radius: .8rem;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.60);
+  transition: all .3s ease;
+}
+.my-card:hover{
+  box-shadow: 5px 10px 15px rgba(85, 88, 123, 1);
+}
+.my-card .card-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 3%;
+}
+.card-flex i {
+  margin-right: 5%;
+  font-size: 2rem;
+}
+
+.content {
+  background: #eee;
+}
+
+.group {
+  margin: 1rem 0;
+}
+
+.bi-whatsapp {
+  color: #23C650;
+}
+
+.bi-telegram {
+  color: #3255B8;
+}
+
+#testimonial,
+#about{
+  background: #dfdfdf;
+}
+
+#footer {
+  background: var(--primary-bg) !important;
+  padding: 1rem 0;
+}
